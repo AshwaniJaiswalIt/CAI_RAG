@@ -1,0 +1,602 @@
+[
+  {
+    "question": "What was Guido van Rossum's first release?",
+    "answer": "Python is a high-level, general-purpose programming language",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "3c495284e54283a33925d1c80c2d989ba41b5e2e"
+  },
+  {
+    "question": "What is the name of the Python 2.0 release?",
+    "answer": "comedy series Monty Python's Flying Circus",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "24ead345ec6befbcf52d6b6cd002534708163d1d"
+  },
+  {
+    "question": "What is the Zen of Python?",
+    "answer": "offers some support for functional programming in the \"Lisp tradition\"",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "bad8708151484eb4fb089813d2cf874b159bfce0"
+  },
+  {
+    "question": "What is the name of the Python community?",
+    "answer": "\"To describe something as 'clever' is not considered a compliment in the Python culture",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "34918d3373bd5943eee2ba61d5450865113dc680"
+  },
+  {
+    "question": "What is the recommended size of a Python statement?",
+    "answer": "The recommended indent size is four spaces",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "d07b5ce375aef622ed20e8361cef35a4b25dce98"
+  },
+  {
+    "question": "What is the name of the variable that Python uses for comparing objects?",
+    "answer": "function The import and from statements, used to import modules whose functions or variables can be used in the current program The match and case statements, analogous to a switch statement construct, which compares an expression against one or more cases as a control-flow measure The assignment statement (=) binds a name as a reference to a separate, dynamically allocated object",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "9dff8671f08a68dcc34a4395e3c71e36d4cdb87e"
+  },
+  {
+    "question": "What is the name of the expression that Python uses to describe tuples?",
+    "answer": "has a type of expression called a list comprehension, and a more general expression called a generator expression",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "d8b469b0867f092b5d403475e5212703631e581c"
+  },
+  {
+    "question": "What is the name of the string literals?",
+    "answer": "method of the str class, e",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "3f3cccc93e7e79aca29fd31fc567833ebdc2dc23"
+  },
+  {
+    "question": "What is the name of the class that Python has?",
+    "answer": "expressions) cannot contain statements",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "4316157f50bb656bb84ac7854fa7078237091a80"
+  },
+  {
+    "question": "What is the name of the arithmetic that Python uses for a round function?",
+    "answer": "The floor division // operator was introduced, meaning that 7//3 == 2, -7//3 == -3, 7",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "57571048075223a215ddfdd17c415ce46661d68b"
+  },
+  {
+    "question": "What is the name of the Python library?",
+    "answer": "as numerical data processing and manipulation",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "92e384ee5424cd23b293c378ef972e637ccc426f"
+  },
+  {
+    "question": "What is the most common implementation of PyPy?",
+    "answer": "is written in C, meeting the C11 standard since version 3",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "fdec6dbe01dcd6632ab6cd1696e3e831c96fbbf9"
+  },
+  {
+    "question": "What is the name of the fork of CPython that uses the call stack differently?",
+    "answer": "compiler often improves speed significantly relative to CPython, but PyPy does not support some libraries written in C",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "4391cd0870a736ca678a72050d5c166b94cfe2bc"
+  },
+  {
+    "question": "What is the name of the compiler that integrates with CPython?",
+    "answer": "a discontinued just-in-time specializing compiler, which integrates with CPython and transforms bytecode to machine code at runtime",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "3720dd607af4e22f959c9a04b592fde577f088dd"
+  },
+  {
+    "question": "What is the most common approach to optimizing Python performance?",
+    "answer": "tool is enabled by adding a decorator to the relevant Python code",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "bb4281d4061b9a06caa76241916c9b41c1ac72a5"
+  },
+  {
+    "question": "What is the main reason for the development of Python?",
+    "answer": "gains can be observed by utilizing libraries such as NumPy",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "275851b0fe13e17b71267acc2c2408252cb34b1b"
+  },
+  {
+    "question": "What is the name of the Python Python Python?",
+    "answer": "monitors the state of the code by running a large unit test suite during development",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+    "chunk_id": "4ba834e369c1ce3bda6d2d287931c9e07d4094e7"
+  },
+  {
+    "question": "What was the name of the machine learning program?",
+    "answer": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit instructions",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "9d0f162edca54e764c1407905016aad38d3590ed"
+  },
+  {
+    "question": "What is the main purpose of the machine learning algorithm?",
+    "answer": "By the early 1960s, an experimental \"learning machine\" with punched tape memory, called Cybertron, had been developed by Raytheon Company to analyse sonar signals, electrocardiograms, and speech patterns using rudimentary reinforcement learning",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "ec5d9c339ee50b08352811e1f886d4dcac3a7bb7"
+  },
+  {
+    "question": "What did the AI field do to improve the accuracy of the learner?",
+    "answer": "to other fields Artificial intelligence As a scientific endeavour, machine learning grew out of the quest for artificial intelligence (AI)",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "96d9893ee1abded89b4c58424f045f590d857a6c"
+  },
+  {
+    "question": "What is the main reason for the confusion between machine learning and machine learning?",
+    "answer": "hand, machine learning also employs data mining methods as \"unsupervised learning\" or as a preprocessing step to improve learner accuracy",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "5125b2cf50e83e5ca21a2705ac3c8d3ed5ac8ef0"
+  },
+  {
+    "question": "What is the main reason for the lack of performance bounds?",
+    "answer": "learning, leading to a combined field that they call statistical learning",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "3320292e28246c8dfc74cf4c40e154dcf2eda065"
+  },
+  {
+    "question": "What is the main purpose of supervised learning?",
+    "answer": "divided into three broad categories, which correspond to learning paradigms, depending on the nature of the \"signal\" or \"feedback\" available to the learning system: Supervised learning: The computer is presented with example inputs and their desired outputs, given by a \"teacher\", and the goal is to learn a general rule that maps inputs to outputs",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "f9f67719da5504d45db7ea5e282c20cdbfef0cb7"
+  },
+  {
+    "question": "What is the main method of unsupervised learning?",
+    "answer": "For example, in a classification algorithm that filters emails, the input is an incoming email, and the output is the folder in which to file the email",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "06d71da3f4ba786e13a8fc0257454b2ee296681d"
+  },
+  {
+    "question": "What is the CAA self-learning algorithm used to compute emotion?",
+    "answer": "PCA involves changing higher-dimensional data (e",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "d87fa5a26b9542e4cab7fe3f0fc7025809fabbb4"
+  },
+  {
+    "question": "What is the CAA's memory matrix?",
+    "answer": "both decisions about actions and emotions (feelings) about consequence situations",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "c06cabe98b0fbbb34a21d908f6c514cb21ca9b2b"
+  },
+  {
+    "question": "Sparse coding algorithms attempt to do so under the constraint that the learned representation is low-dimensional?",
+    "answer": "under the constraint that the learned representation is low-dimensional",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "1b9ddeb529dbc2fc5a117ca12e36065d87c189e3"
+  },
+  {
+    "question": "What is the name of the machine learning method that is used to identify strong rules?",
+    "answer": "problems or errors in a text",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "1040b7aaf2c4361d79fe88ff4ca5f65672c2cc74"
+  },
+  {
+    "question": "What is the name of the rule-based machine learning approach?",
+    "answer": "Rule-based machine learning approaches include learning classifier systems, association rule learning, and artificial immune systems",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "23abe5d9f3d0ab175971248315db649c967e3929"
+  },
+  {
+    "question": "What is the term inductive?",
+    "answer": "Shapiro built their first implementation (Model Inference System) in 1981: a Prolog program that inductively inferred logic programs from positive and negative examples",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "eccbd34294da008c929a4498c2c119c83495e994"
+  },
+  {
+    "question": "What is the name of the support-vector machines?",
+    "answer": "Typically, artificial neurons are aggregated into layers",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "e83c28579bcf17ee00e1e746b627aef102bcab47"
+  },
+  {
+    "question": "What is the most common form of linear regression?",
+    "answer": "random selection of RFR for training enables the model to reduce biased predictions and achieve a higher degree of accuracy",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "753151d5717c330d4bd31a8b529adaae14d6250e"
+  },
+  {
+    "question": "What is the name of the Bayesian network?",
+    "answer": "graphical model that represents a set of random variables and their conditional independence with a directed acyclic graph (DAG)",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "29f66cc47626c9e706ae6b468cd3fbefc8b7fc67"
+  },
+  {
+    "question": "What is the main reason for the caveats to the belief functions?",
+    "answer": "However, there are many caveats to these beliefs functions when compared to Bayesian approaches to incorporate ignorance and uncertainty quantification",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "91e40a3aad1d20ac0615edf2f7306f789708bb33"
+  },
+  {
+    "question": "What is the name of the machine learning program that Netflix used to train search query prediction models?",
+    "answer": "training process to many devices",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "466ae0b90e25237f0369a6e1f957a7804f1dcd6c"
+  },
+  {
+    "question": "What is the name of the AI that is used to describe the decision making process?",
+    "answer": "field of quantum chemistry, where novel algorithms now enable the prediction of solvent effects on chemical reactions, thereby offering new tools for chemists to tailor experimental conditions for optimal outcomes",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "ea30a4d39efa3317ba4c3a0944a959a2576aefeb"
+  },
+  {
+    "question": "What is the main advantage of XAI?",
+    "answer": "which humans can understand the decisions or predictions made by the AI",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "5ef3806040d4f75f2a969641fb3b825e9700ad4f"
+  },
+  {
+    "question": "What is the name of the test set?",
+    "answer": "a training and test set (conventionally 2/3 training set and 1/3 test set designation) and evaluates the performance of the training model on the test set",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "cfaec5e26f7679759fbd919acfcef0a814a7a1b7"
+  },
+  {
+    "question": "What is the main reason for the lack of participation in AI?",
+    "answer": "after being trained with historical crime data",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "e43f289653ca4b9d084bbe1935f4ab2be10f4e07"
+  },
+  {
+    "question": "What is the name of the computing system that uses a computer to simulate the structure of biological neural networks?",
+    "answer": "be designed in the public's interest but as income-generating machines",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "bd48f69747ed0a9822c434ed0b157e2b6bf9e0bd"
+  },
+  {
+    "question": "What is the name of the software suite that combines machine learning and machine learning?",
+    "answer": "function of neural synapses",
+    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+    "chunk_id": "6298ff81058d6e7616365ec6a16383fbcabc0bf3"
+  },
+  {
+    "question": "What is the main focus of AI?",
+    "answer": "Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "680644f18a3d8c4664f5ef6b7681242a7b868bdc"
+  },
+  {
+    "question": "What is the most difficult problem in knowledge representation?",
+    "answer": "advanced generative AI became known as the AI boom",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "ea315c1a672ad4ef6ac1f90c2aec7cee13871184"
+  },
+  {
+    "question": "What is the most difficult problem in knowledge representation?",
+    "answer": "difficult problems in knowledge representation are the breadth of commonsense knowledge (the set of atomic facts that the average person knows is enormous); and the sub-symbolic form of most commonsense knowledge (much of what people know is not represented as \"facts\" or \"statements\" that they could express verbally)",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "88ca798027dddda91cd6bfdc5f7ccd2a24c5f0f3"
+  },
+  {
+    "question": "What is the main advantage of NLP?",
+    "answer": "model that describes the probability that a particular action will change the state in a particular way and a reward function that supplies the utility of each state and the cost of each action",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "e941de3e0a6e8f8910d6c18e3d22c1698c2dca1f"
+  },
+  {
+    "question": "What is the name of the machine that uses AI to solve problems?",
+    "answer": "and not dictionaries should be the basis of computational language structure",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "aa1aa37a81e6310e3f94aea35a4be72da17a6a1b"
+  },
+  {
+    "question": "What is the term for a local search?",
+    "answer": "are rarely sufficient for most real-world problems: the search space (the number of places to search) quickly grows to astronomical numbers",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "d028516656e7d7fd7eb7c8db9daf6d3cdbaf3e31"
+  },
+  {
+    "question": "What is the main reason for AI's problem solving?",
+    "answer": "and whose leaf nodes are labelled by premises or axioms",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "3b9ae948c0c6009e781455f659a1a1e422294e17"
+  },
+  {
+    "question": "What is the most common machine learning algorithm?",
+    "answer": "pick up\"), on the other hand",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "96f0f0ee83889e81ebaed97ec6e79bf9a2d3b31a"
+  },
+  {
+    "question": "What is the main reason for deep learning?",
+    "answer": "memory networks (LSTMs) are recurrent neural networks that better preserve longterm dependencies and are less sensitive to the vanishing gradient problem",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "387ceb801ac15b0b36cb4e4f76b0aee4059becc6"
+  },
+  {
+    "question": "What is the name of the technology that is used in the 2020s?",
+    "answer": "Current GPT models are prone to generating falsehoods called \"hallucinations\"",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "2dfb119d071f4d626bc370c9f84076932f45c947"
+  },
+  {
+    "question": "What was the name of the game that DeepMind developed?",
+    "answer": "killing two different types of drug-resistant bacteria",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "83721baf4804205c3e04460599742e764f22c8a0"
+  },
+  {
+    "question": "What is the name of the Qwen models that achieved state-of-the-art performance?",
+    "answer": "supervised fine-tuning or trained classifiers with human-annotated data to improve answers for new problems and learn from corrections",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "bc6e7dcb93b693649b4a8e0df9396e3a49ab2947"
+  },
+  {
+    "question": "What is the name of the AI-based AI agent?",
+    "answer": "pension advice in the process, but I'm not sure it will unleash a new wave of [e",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "81e0edc7b91804b9022f90ebff7e86f14ab53c93"
+  },
+  {
+    "question": "What is the name of the AI-generated content used in Indian elections?",
+    "answer": "fertility trackers that analyze user data to offer predictions, AI-integrated sex toys (e",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "eb9e7753cf8956760deeb96fa2ab02965a642f7e"
+  },
+  {
+    "question": "What is the main reason for AI's use of AI?",
+    "answer": "Ethics AI has potential benefits and potential risks",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "609854c9fc59fcb0389407126a2f2914d88b87a3"
+  },
+  {
+    "question": "What is the main reason for the IEA's report on the use of AI?",
+    "answer": "Experts disagree about how well and under what circumstances this rationale will hold up in courts of law; relevant factors may include \"the purpose and character of the use of the copyrighted work\" and \"the effect upon the potential market for the copyrighted work\"",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "c31f49233f0cb6c3c3bac8eeedcb9cb18b1756a6"
+  },
+  {
+    "question": "What is the cost of the three Mile Island nuclear plant?",
+    "answer": "energy to geothermal to fusion",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "6a104f317887bd90a74a82e3d2c2fda3a3ecf232"
+  },
+  {
+    "question": "What is the biggest impact of AI?",
+    "answer": "are investing almost US$2 billion to reopen the Palisades Nuclear reactor on Lake Michigan",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "7bce26e295b0e98a703f9833c34e6c79b45054ed"
+  },
+  {
+    "question": "What did the AI program do to improve user engagement?",
+    "answer": "use recommender systems to guide users to more content",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "a357518a56b4e02b6f7ccf24a43dd6eec2cf1955"
+  },
+  {
+    "question": "What did COMPAS do to the system?",
+    "answer": "harm people (as it can in medicine, finance, recruitment, housing or policing) then the algorithm may cause discrimination",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "a566d497561da9a8e1a178ef0ac0015d3cc65100"
+  },
+  {
+    "question": "What is the main category of machine learning?",
+    "answer": "in the past, machine learning models must predict that racist decisions will be made in the future",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "35f37703d0c72f0cf70a0a68ba530d27f82157dc"
+  },
+  {
+    "question": "What is the name of the machine learning system that identifies skin diseases better than medical professionals?",
+    "answer": "knows how exactly it works",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "edbb22493aa65c31bbdeb5351187ffb9524b83f0"
+  },
+  {
+    "question": "What is the main advantage of AI?",
+    "answer": "dictionary learning that associates patterns of neuron activations with human-understandable concepts",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "3b965a1649daa116d8dd3afd81e719a3e4c2bf2b"
+  },
+  {
+    "question": "What is the main reason for the rise in unemployment in the U.S.?",
+    "answer": "use of robots and AI will cause a substantial increase in long-term unemployment, but they generally agree that it could be a net benefit if productivity gains are redistributed",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "49f32fa10741f14343d502caa574bb445302dc83"
+  },
+  {
+    "question": "What is the main reason for the rise of AI?",
+    "answer": "First, AI does not require human-like sentience to be an existential risk",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "2ff7b1d0d54e96b71beb9380d120a5a02524c317"
+  },
+  {
+    "question": "What did the Turing Award winner say was a mistake to fall for?",
+    "answer": "He notably mentioned risks of an AI takeover, and stressed that in order to avoid the worst outcomes, establishing safety guidelines will require cooperation among those competing in use of AI",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "980571cab487591ceced9be37544ebd1a443c5f5"
+  },
+  {
+    "question": "What is the name of the AI framework?",
+    "answer": "Other approaches include Wendell Wallach's \"artificial moral agents\" and Stuart J",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "25db1361ba1135717c287196ac17ee8f7a08b840"
+  },
+  {
+    "question": "What was the name of the first international treaty on AI?",
+    "answer": "under an MIT open-source licence which is freely available on GitHub and can be improved with third-party packages",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "6228ba9a757a88b7f99a769c07c9c79e7bb85353"
+  },
+  {
+    "question": "What did the first global AI Safety Summit take place in the UK?",
+    "answer": "greatly by country; 78% of Chinese citizens, but only 35% of Americans, agreed that \"products and services using AI have more benefits than drawbacks\"",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "44db95dce87cec3cd613e101f1574d39cc1f621f"
+  },
+  {
+    "question": "What did the researchers believe would be able to solve in the future?",
+    "answer": "at a number of British and U",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "e91b2312d97d2f702796dc34e36f2c2ed22d3a76"
+  },
+  {
+    "question": "What was the name of the first AI application?",
+    "answer": "reasonable guesses rather than precise logic",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "19b28b6d8faf3fe99f47eebe0eb7e41aa69bbb10"
+  },
+  {
+    "question": "What did Alan Turing say was the answer to the question 'can machines think'?",
+    "answer": "is capable of generating high-quality human-like text",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "b6930defb709e1c3b9af5dee5fd49da09a7541fb"
+  },
+  {
+    "question": "What is the definition of artificial intelligence?",
+    "answer": "John McCarthy agreed, writing that \"Artificial intelligence is not, by definition, simulation of human intelligence\"",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "967dd57207e2abb3e755ce19ae7bc38ac6ede39f"
+  },
+  {
+    "question": "What did Newell and Simon say was the problem with the GOFAI?",
+    "answer": "Symbolic AI and its limits Symbolic AI (or \"GOFAI\") simulated the high-level conscious reasoning that people use when they solve puzzles, express legal reasoning and do mathematics",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "8b9b4141820bd02c6ac1d123b83092bf1aec7422"
+  },
+  {
+    "question": "What is the position in the philosophy of mind that the human mind is an information processing system?",
+    "answer": "logic and neural networks, that are tolerant of imprecision, uncertainty, partial truth and approximation",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "1e5a541278ecd26e15c9fccf771c882149da34b1"
+  },
+  {
+    "question": "What is the name of the object that is red?",
+    "answer": "identify which objects in their field of view are red, but it is not clear what would be required for the person to know what red looks like",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "176164bf0d2c952fa6815bbbef0b89995e815a8a"
+  },
+  {
+    "question": "What is the name of the novel that explains the evolution of artificial intelligence?",
+    "answer": "Progress in AI increased interest in the topic",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "46b686ed07f5136c2eb270e2563831db02de2f0c"
+  },
+  {
+    "question": "What is the name of the software agent that acts autonomously?",
+    "answer": "Bishop from Aliens (1986) are less prominent in popular culture",
+    "url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "chunk_id": "ad1ff668fbf36c6f0fef068268fbda58c1d4ed66"
+  },
+  {
+    "question": "What was the name of the test that was developed in the 1960s?",
+    "answer": "Natural language processing (NLP) is the processing of natural language information by a computer",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "chunk_id": "3959048b0f384c0aa41b15b1950eca28e1269a28"
+  },
+  {
+    "question": "What was the name of the first natural language processing system?",
+    "answer": "small knowledge base, ELIZA might provide a generic response, for example, responding to \"My head hurts\" with \"Why do you say your head hurts?\"",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "chunk_id": "14d9fd265d18ac8795ac38587db8ad68142a273b"
+  },
+  {
+    "question": "What is the name of the Symbolic approach?",
+    "answer": "result of laws calling for the translation of all governmental proceedings into all official languages of the corresponding systems of government",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "chunk_id": "abe3b39928fb4105d77bede2be49082e71eb2c9f"
+  },
+  {
+    "question": "What is the main advantage of the rule-based approach?",
+    "answer": "Approaches: Symbolic, statistical, neural networks Symbolic approach, i",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "chunk_id": "103fd6c504a485d98c5cb682014e592b80c97f8e"
+  },
+  {
+    "question": "What is the word index?",
+    "answer": "embeddings to capture semantic properties of words",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "chunk_id": "756d03e7cfc4040bb5e276383e1ba0873846a07e"
+  },
+  {
+    "question": "What is the main reason for the morphology of a word?",
+    "answer": "maps unique words to specific numerical identifiers, and the tokenized text replaces each word with its corresponding numerical token",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "chunk_id": "2c5be04f30480934ad65bb6198a2bf172e9e585b"
+  },
+  {
+    "question": "What is the primary type of parsing?",
+    "answer": "Stemming yields similar results as lemmatization, but does so on grounds of rules, not a dictionary",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "chunk_id": "e0d336a86d3f73e619e399f029ed929240a3f4b5"
+  },
+  {
+    "question": "What is the term for Sentiment analysis?",
+    "answer": "to as token classification",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "chunk_id": "05b4aaa0eb7cd979c8860a76b8f21312731a2f6f"
+  },
+  {
+    "question": "What is the coreference resolution task?",
+    "answer": "this task, and is specifically concerned with matching up pronouns with the nouns or names to which they refer",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "chunk_id": "e1dddebdd8b295b2cb6bcd9ae91cf9717a2b053f"
+  },
+  {
+    "question": "What is the main purpose of a natural language?",
+    "answer": "(text summarization) Produce a readable summary of a chunk of text",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "chunk_id": "5aa1fb0ca4d5ca012c1aa066453b276b27686106"
+  },
+  {
+    "question": "What is the name of the first machine-generated book?",
+    "answer": "tasks is the creation of full-fledged books",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "chunk_id": "47e214285b8416e2e32fc4c203336558e4999264"
+  },
+  {
+    "question": "What is the name of the algorithm that is used to make sense of the meaning of a word?",
+    "answer": "Turkish since 2007; Czech since 2009; Arabic since 2012; 2017: 40+ languages; 2018: 60+/100+ languages) Elimination of symbolic representations (rule-based over supervised towards weakly supervised methods, representation learning and end-to-end systems) Cognition Most higher-level NLP applications involve aspects that emulate intelligent behavior and apparent comprehension of natural language",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "chunk_id": "f640c7e2fe72093093d4070b3f843ae870792115"
+  },
+  {
+    "question": "What is the name of the concept of cognitive NLP?",
+    "answer": "k e n N ) \u00d7 1 2 d ( \u2211 i = \u2212 d d ( ( P M M ( t o k e n N ) \u00d7 P F ( t o k e n N \u2212 i , t o k e n N , t o k e n N + i ) ) i ) {\\displaystyle {RMM(token_{N})}={PMM(token_{N})}\\times {\\frac {1}{2d}}\\left(\\sum _{i=-d}^{d}{((PMM(token_{N})}\\times {PF(token_{N-i},token_{N},token_{N+i}))_{i}}\\right)} Where RMM is the relative measure of meaning token is any block of text, sentence, phrase or word N is the number of tokens being analyzed PMM is the probable measure of meaning based on a corpora d is the non zero location of the token along the sequence of N tokens PF is the probability function specific to a language Ties with cognitive linguistics are part of the historical heritage of NLP, but they have been less frequently addressed since the statistical turn during the 1990s",
+    "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+    "chunk_id": "726877ab0e550794504c8670168b02fa93403e8b"
+  },
+  {
+    "question": "What is the term for economics?",
+    "answer": "Economics () is a social science that studies the production, distribution, and consumption of goods and services",
+    "url": "https://en.wikipedia.org/wiki/Economics",
+    "chunk_id": "cdca480b632fcf50e47b3c7b6d3c48f064378778"
+  },
+  {
+    "question": "What was the definition of economics?",
+    "answer": "[and] to supply the state or commonwealth with a revenue for the public services",
+    "url": "https://en.wikipedia.org/wiki/Economics",
+    "chunk_id": "9e489bd4e316a663afcc3a58666d10b36ce17c2b"
+  },
+  {
+    "question": "What did some economists criticize the method-based definition of Robbins?",
+    "answer": "If the war is not winnable or if the expected costs outweigh the benefits, the deciding actors (assuming they are rational) may never go to war (a decision) but rather explore other alternatives",
+    "url": "https://en.wikipedia.org/wiki/Economics",
+    "chunk_id": "c07da6df255a4a7b3fb8c868bad85fc24a736956"
+  },
+  {
+    "question": "What did the author of the Oeconomicus say was a 'first economist'?",
+    "answer": "it is not said that all biology should be studied with DNA analysis",
+    "url": "https://en.wikipedia.org/wiki/Economics",
+    "chunk_id": "f9e4c4ff516b17311b033e909a36af6c055f99ac"
+  },
+  {
+    "question": "What did Adam Smith's book describe as a \"separate discipline\"?",
+    "answer": "mines could obtain gold and silver from trade only by selling goods abroad and restricting imports other than of gold and silver",
+    "url": "https://en.wikipedia.org/wiki/Economics",
+    "chunk_id": "d8b27459fca844fda8c0b09f5f44d83291588531"
+  },
+  {
+    "question": "What did David Ricardo believe was a factor in the decline of income?",
+    "answer": "and capital) seek their most profitable uses, resulting in an equal rate of return for all uses in equilibrium (adjusted for apparent differences arising from such factors as training and unemployment)",
+    "url": "https://en.wikipedia.org/wiki/Economics",
+    "chunk_id": "e0288bcc3e828a0587da2b273f89353d5135bff7"
+  },
+  {
+    "question": "What was the name of the first volume of Marx's major work?",
+    "answer": "against a fixed supply of land, pushes up rents and holds down wages and profits",
+    "url": "https://en.wikipedia.org/wiki/Economics",
+    "chunk_id": "628e8c323d9fbd51215837640ed2cd0234b0ace1"
+  },
+  {
+    "question": "What did Robbins' definition of economics mean?",
+    "answer": "(Erfurt Program), Rudolf Hilferding's (1877\u20131941) Finance Capital, Vladimir Lenin (1870\u20131924)'s The Development of Capitalism in Russia and Imperialism, the Highest Stage of Capitalism, and Rosa Luxemburg (1871\u20131919)'s The Accumulation of Capital",
+    "url": "https://en.wikipedia.org/wiki/Economics",
+    "chunk_id": "d236658b10205b244a31987643aed613408dc2ff"
+  }
+]

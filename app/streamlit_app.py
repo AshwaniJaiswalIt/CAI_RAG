@@ -1,10 +1,14 @@
 """Minimal Streamlit app demonstrating the Hybrid RAG retrieval and generation.
 Run with: streamlit run app/streamlit_app.py
 """
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import streamlit as st
 import time
-from retrieve import Retriever
-from generate import generate_answer
+from scripts.retrieve import Retriever
+from scripts.generate import generate_answer
 
 st.title('Hybrid RAG Demo')
 retriever = Retriever('indices')

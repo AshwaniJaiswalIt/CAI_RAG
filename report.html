@@ -1,0 +1,15 @@
+<html><head><title>Hybrid RAG Evaluation Report</title></head><body>
+<h1>Hybrid RAG Evaluation</h1>
+<p>MRR (URL-level): 0.9255</p>
+<p>Precision@10: 0.9900</p>
+<p>NDCG@10: 3.0792</p>
+<p>Avg latency (s): 0.000</p>
+<h2>Metric details</h2>
+<h3>MRR_url_level</h3><p>Mean Reciprocal Rank at URL level. For each question, rank position r of first correct URL. MRR = (1/Q) * sum_{i=1..Q} (1/r_i).</p>
+<h3>Precision@10</h3><p>Fraction of questions where ground-truth URL appears in top-10 retrieved URLs: Precision@10 = (1/Q) * sum_{i} 1[ground in top10].</p>
+<h3>SemanticAnswerMetric</h3><p>If BERTScore is available, mean BERTScore F1 between generated answer and reference answer; otherwise token-level F1 (precision/recall harmonic mean).</p>
+<h2>Visualizations</h2>
+<img src="mrr_hist.png" width="600"/>
+<img src="semantic_hist.png" width="600"/>
+<img src="latency_hist.png" width="600"/>
+</body></html>
