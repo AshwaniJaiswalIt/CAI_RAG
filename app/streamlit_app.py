@@ -21,7 +21,15 @@ if st.button('Run') and q:
     st.write(answer)
     st.subheader('Retrieved chunks (RRF fused top 10)')
     for i, f in enumerate(fused):
-        st.write(f"{i+1}. URL: {f['url']}  | RRF score: {f['score']:.4f}")
+        st.write(
+            f"""{i+1}. URL: {f['url']}
+            | Dense rank: {f.get('dense_rank', 'NA')}
+            | BM25 rank: {f.get('sparse_rank', 'NA')}
+            | RRF score: {f['score']:.4f}
+            """
+        )
+
+        #st.write(f"{i+1}. URL: {f['url']}  | RRF score: {f['score']:.4f}")
         st.write(f"{f['text'][:400]}...")
 
     st.subheader('Dense vs Sparse (top 5 each)')
@@ -38,3 +46,4 @@ if st.button('Run') and q:
             chunk = next((c for c in retriever.chunks if c['chunk_id']==s['chunk_id']), None)
             st.write(f"- {chunk['title'] if chunk else s['chunk_id']} | score: {s['score']:.4f}")
     st.write(f"Response time: {elapsed:.2f}s")
+
