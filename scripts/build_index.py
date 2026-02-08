@@ -5,6 +5,7 @@ Saves indices to specified output directory.
 import argparse
 import json
 import os
+import re
 from sentence_transformers import SentenceTransformer
 import numpy as np
 import faiss
@@ -45,8 +46,16 @@ if __name__ == '__main__':
     # Save metadata mapping
     joblib.dump({'ids': ids, 'chunks': chunks}, os.path.join(args.out_dir, 'meta.joblib'))
 
-    # Build BM25
-    tokenized = [t.split() for t in texts]
+    # Build BM25 with minimal token normalization (lowercase, remove punctuation)
+    def normalize(text):
+        if not isinstance(text, str):
+            return ''
+        txt = text.lower()
+        txt = re.sub(r"[^\w\s]", " ", txt)
+        txt = " ".join(txt.split())
+        return txt
+
+    tokenized = [normalize(t).split() for t in texts]
     bm25 = BM25Okapi(tokenized)
     joblib.dump(bm25, os.path.join(args.out_dir, 'bm25.joblib'))
     print('Indices saved to', args.out_dir)

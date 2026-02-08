@@ -10,6 +10,7 @@ import joblib
 import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
+import re
 
 MODEL_NAME = 'all-MiniLM-L6-v2'
 
@@ -35,14 +36,28 @@ class Retriever:
         return results
 
     def sparse_search(self, query, top_k=10):
-        tokens = query.split()
-        hits = self.bm25.get_top_n(tokens, [c['text'] for c in self.chunks], n=top_k)
+        # Minimal token normalization to match build_index.py: lowercase and remove punctuation
+        def normalize(text):
+            if not isinstance(text, str):
+                return ''
+            txt = text.lower()
+            txt = re.sub(r"[^\w\s]", " ", txt)
+            txt = " ".join(txt.split())
+            return txt
+
+        tokens = normalize(query).split()
+        # bm25.get_scores returns a list of scores aligned with the corpus order
+        scores = np.array(self.bm25.get_scores(tokens))
+        if scores.size == 0:
+            return []
+        # get top_k indices (descending)
+        topk_idx = np.argsort(scores)[-top_k:][::-1]
         results = []
-        for rank, text in enumerate(hits):
-            # find chunk_id
-            chunk = next((c for c in self.chunks if c['text']==text), None)
-            if chunk:
-                results.append({'chunk_id': chunk['chunk_id'], 'score': float(self.bm25.get_scores(tokens)[self.chunks.index(chunk)]), 'rank': rank+1})
+        rank = 1
+        for idx in topk_idx:
+            chunk = self.chunks[idx]
+            results.append({'chunk_id': chunk['chunk_id'], 'score': float(scores[idx]), 'rank': rank})
+            rank += 1
         return results
 
     def rrf_fuse(self, dense_list, sparse_list, rrf_k=60, top_n=10):
