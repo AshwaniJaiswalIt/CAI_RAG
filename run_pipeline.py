@@ -18,7 +18,7 @@ def run(cmd, cwd=None):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--workdir', default='.', help='Workspace directory containing scripts and fixed_urls.json')
-    parser.add_argument('--zip_name', default='Group_XX_Hybrid_RAG.zip')
+    parser.add_argument('--zip_name', default='Group_149_Hybrid_RAG.zip')
     parser.add_argument('--max_chunks', type=int, default=None, help='Optional: embed only first N chunks (for smoke tests)')
     args = parser.parse_args()
 
