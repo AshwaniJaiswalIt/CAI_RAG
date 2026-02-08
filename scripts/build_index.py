@@ -18,11 +18,16 @@ if __name__ == '__main__':
     parser.add_argument('--chunks', required=True)
     parser.add_argument('--out_dir', default='indices')
     parser.add_argument('--batch_size', type=int, default=64)
+    parser.add_argument('--max_chunks', type=int, default=None, help='If set, embed only the first N chunks (useful for smoke tests)')
     args = parser.parse_args()
 
     os.makedirs(args.out_dir, exist_ok=True)
     with open(args.chunks, 'r') as f:
         chunks = json.load(f)
+
+    if args.max_chunks is not None:
+        chunks = chunks[:args.max_chunks]
+
     texts = [c['text'] for c in chunks]
     ids = [c['chunk_id'] for c in chunks]
 
